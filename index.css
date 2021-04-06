@@ -5,16 +5,16 @@
   box-sizing: border-box;
 }
 
-div.wrapper {
+div.wrapper 
   background: pink;
   padding: 20px;
   text-align: center;
   border: 2px solid grey;
-}
 
-span.content {
+
+span#content {
   background: green;
-  padding: 10px;
-  color: #fff;
-  font-size: 40px;
+  padding: 10px
+  color: #fff
+  fontSize: 40px;
 }
