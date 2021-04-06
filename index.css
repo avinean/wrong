@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+div.wrapper {
+  background: pink;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid grey;
+}
+
+span.content {
+  background: green;
+  padding: 10px;
+  color: #fff;
+  font-size: 40px;
+}
