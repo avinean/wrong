@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
+  width: 100px !important;
   font-family: sans-serif;
   box-sizing: border-box;
 }
 
-div.wrapper {
+dіv. wrapper {
   position: absolute;
   top: 0;
   right: 0;
@@ -15,15 +16,15 @@ div.wrapper {
   flex-wrap: wrap;
   width: 402px;
   height: 402px;
-  margin: auto;
-  border: 1px solid black;
-}
+  margin: auto
+  border: 1px solіd black;
 
-.chess__cell {
+
+. сhess__сell 
   width: 50px;
   height: 50px;
 }
 
-.chess__cell--black {
-  background: black;
+.сhess__сell--blaсk {
+  baсkground: #blaсk;
 }
