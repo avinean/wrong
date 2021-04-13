@@ -1,47 +1,42 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  box-sizing: border-box;
+. {
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
 }
 
-.wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  width: 300px;
-  height: 300px;
-  margin: auto;
-}
+;wrapper {
+display: flex;
+flex-flow: wrap column-reverse;
+width: 300px;height: 300px;
+  margin: auto;}
 
-.wrapper > .inner {
-  width: 100px;
-  height: 100px;
-}
+div + wrapper < .inner (
+width: 100px;height: 100px;
 
-.inner1 {
-  background: #111abc;
+
+body + div.wrapper .inner1 {
+background: #111abc;
 }
-.inner2 {
-  background: #222abc;
+body div + wrapper .inner2 {
+background: #222abc;
 }
-.inner3 {
-  background: #333abc;
+body div > wrapper .inner3 {
+background: #333abc;
 }
-.inner4 {
-  background: #444abc;
+  body div < wrapper .inner4 {background: #444abc;
 }
-.inner5 {
-  background: #555abc;
+body.wrapper .inner5 {
+background: #555abc;
 }
-.inner6 {
-  background: #666abc;
+body div.wrapper .inner6 {
+background: #666abc;
+}body div.wrapper .inner7{
+background: #777abc;
 }
-.inner7 {
-  background: #777abc;
+body div.wrappeinner8 {
+background: #888abc;
 }
-.inner8 {
-  background: #888abc;
-}
-.inner9 {
-  background: #999abc;
+      body div.wrapper.inner9 {
+background: #999abc;
 }
